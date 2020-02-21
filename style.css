@@ -197,37 +197,11 @@ h6 {
   position: relative;
 }
 
-.nav-2 .container ul li ul {
-  display: none;
-  background-color: #fff;
+.nav-2 .container ul li :hover{
+  background-color: #333;
+  color: white;
 }
 
-.nav-2 .container ul li:hover ul {
-  display: block;
-}
-
-.nav-2 .container ul li:hover ul li a {
-  display: block;
-  width: 13rem;
-  position: absolute;
-}
-
-.nav-2 .container ul li ul li a {
-  padding: 0.5rem;
-}
-
-.nav-2 .container ul li ul li a {
-  background-color: #f3f3f3;
-  color: #333;
-}
-
-.nav-2 .container-nav ul li ul li {
-  width: 10rem;
-}
-
-.nav-2 a {
-  color: #333;
-}
 
 #showcase {
   color: #fff;
